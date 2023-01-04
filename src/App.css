@@ -36,3 +36,15 @@ table{
   border-collapse: collapse;
   border: 1px solid grey;
 }
+
+th{
+  min-width: 100px;
+  border: 1px solid  gray;
+  text-align: left;
+  padding: 5px;
+  background-color: aqua;
+}
+
+th:first-child{
+  min-width: 20px;
+}
