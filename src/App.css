@@ -20,6 +20,10 @@ input{
   margin: 5px 0;
 }
 
+input:first-child{
+  margin: 0 0 5px;
+}
+
 .buttons-wrapper{
   display: flex;
   justify-content: space-between;
@@ -42,9 +46,15 @@ th{
   border: 1px solid  gray;
   text-align: left;
   padding: 5px;
-  background-color: aqua;
+  background-color:blue;
+  color: aliceblue;
 }
 
 th:first-child{
   min-width: 20px;
+}
+
+td{
+  border: 1px solid gray;
+  padding: 5px;
 }
